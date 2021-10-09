@@ -4,8 +4,8 @@ import ProfessionalList from './ProfessionalList';
 import TopNav from './TopNav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import { Login } from './pages/Login'
-import { Register } from './pages/Register'
+import { Login } from './pages/Login/Login'
+import { Register } from './pages/Register/Register'
 import { ProfessionalProfile } from './pages/ProfessionalProfile'
 
 function App() {
